@@ -5,9 +5,9 @@ LABEL com.github.containers.toolbox="true" \
       summary="A cloud-native terminal experience" \
       maintainer="peter.liveyns@gmail.com"
 
-COPY config /
+COPY config /tmp/config/
 
-RUN /config/test.sh
+RUN /tmp/config/test.sh
 
-RUN rm -Rf /config
+RUN rm -Rf /tmp/config/
 
