@@ -7,7 +7,7 @@ LABEL com.github.containers.toolbox="true" \
 
 COPY config /tmp/config/
 
-RUN /tmp/config/test.sh
+RUN /tmp/config/dnf_packages.sh
 
 RUN rm -Rf /tmp/config/
 
