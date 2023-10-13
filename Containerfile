@@ -9,7 +9,8 @@ COPY config /tmp/config/
 
 COPY --from=docker.io/mikefarah/yq /usr/bin/yq /usr/bin/yq
 
-RUN /tmp/config/dnf_packages.sh
+RUN /tmp/config/dnf_packages.sh && \
+    /tmp/config/rpm_packages.sh
 
 RUN rm -Rf /tmp/config/
 
