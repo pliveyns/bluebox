@@ -3,7 +3,7 @@ dnf:
   - neovim
   - neofetch
   - inxi
-    #- tio
+  #- tio
   - wget
   - curl
   - rclone
@@ -12,9 +12,9 @@ dnf:
   - restic
   - p7zip
   - p7zip-plugins
-    #- cryptsetup
+  #- cryptsetup
   - ncdu
-    #- tmux
+  #- tmux
   - btop
   - par2cmdline
   - bat
