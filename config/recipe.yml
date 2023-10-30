@@ -30,6 +30,8 @@ dnf:
   - just
   - ncurses
   - wl-clipboard
+  - gcc
+  - make
 rpm:
   - chezmoi: https://github.com/twpayne/chezmoi/releases/download/v2.40.3/chezmoi-2.40.3-x86_64.rpm
 tar:
