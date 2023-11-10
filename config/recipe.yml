@@ -23,7 +23,7 @@ dnf:
   - ripgrep
   - tig
   - w3m
-  - exa
+  - lsd
   - speedtest-cli
   - dbus-x11
   - direnv
