@@ -33,6 +33,7 @@ dnf:
   - gcc
   - make
   - nodejs-npm
+  - dconf
 rpm:
   - chezmoi: https://github.com/twpayne/chezmoi/releases/download/v2.40.4/chezmoi-2.40.4-x86_64.rpm
 tar:
