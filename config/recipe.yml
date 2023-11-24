@@ -27,7 +27,6 @@ dnf:
   - speedtest-cli
   - dbus-x11
   - direnv
-  - just
   - ncurses
   - wl-clipboard
   - gcc
