@@ -34,7 +34,7 @@ dnf:
   - nodejs-npm
   - dconf
 rpm:
-  - chezmoi: https://github.com/twpayne/chezmoi/releases/download/v2.40.4/chezmoi-2.42.2-x86_64.rpm
+  - chezmoi: https://github.com/twpayne/chezmoi/releases/download/v2.42.2/chezmoi-2.42.2-x86_64.rpm
   - glow: https://github.com/charmbracelet/glow/releases/download/v1.5.1/glow-1.5.1.x86_64.rpm
 tar:
   - zellij: https://github.com/zellij-org/zellij/releases/download/v0.39.2/zellij-x86_64-unknown-linux-musl.tar.gz
