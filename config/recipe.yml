@@ -3,7 +3,6 @@ dnf:
   - neovim
   - neofetch
   - inxi
-  #- tio
   - wget
   - curl
   - rclone
@@ -12,9 +11,7 @@ dnf:
   - restic
   - p7zip
   - p7zip-plugins
-  #- cryptsetup
   - ncdu
-  #- tmux
   - btop
   - par2cmdline
   - bat
@@ -36,6 +33,7 @@ dnf:
 rpm:
   - chezmoi: https://github.com/twpayne/chezmoi/releases/download/v2.42.2/chezmoi-2.42.2-x86_64.rpm
   - glow: https://github.com/charmbracelet/glow/releases/download/v1.5.1/glow-1.5.1.x86_64.rpm
+  - cosign: https://github.com/sigstore/cosign/releases/download/v2.2.2/cosign-2.2.2-1.x86_64.rpm
 tar:
   - zellij: https://github.com/zellij-org/zellij/releases/download/v0.39.2/zellij-x86_64-unknown-linux-musl.tar.gz
 binary:
