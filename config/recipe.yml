@@ -31,6 +31,7 @@ dnf:
   - nodejs-npm
   - dconf
   - fzf
+  - virt-viewer
 rpm:
   - chezmoi: https://github.com/twpayne/chezmoi/releases/download/v2.42.2/chezmoi-2.42.2-x86_64.rpm
   - glow: https://github.com/charmbracelet/glow/releases/download/v1.5.1/glow-1.5.1.x86_64.rpm
