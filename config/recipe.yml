@@ -33,12 +33,12 @@ dnf:
   - fzf
   - virt-viewer
 rpm:
-  - chezmoi: https://github.com/twpayne/chezmoi/releases/download/v2.46.0/chezmoi-2.46.0-x86_64.rpm
+  - chezmoi: https://github.com/twpayne/chezmoi/releases/download/v2.51.0/chezmoi-2.51.0-x86_64.rpm
   - glow: https://github.com/charmbracelet/glow/releases/download/v1.5.1/glow-1.5.1.x86_64.rpm
-  - cosign: https://github.com/sigstore/cosign/releases/download/v2.2.3/cosign-2.2.3-1.x86_64.rpm
+  - cosign: https://github.com/sigstore/cosign/releases/download/v2.2.4/cosign-2.2.4-1.x86_64.rpm
 tar:
-  - zellij: https://github.com/zellij-org/zellij/releases/download/v0.39.2/zellij-x86_64-unknown-linux-musl.tar.gz
+  - zellij: https://github.com/zellij-org/zellij/releases/download/v0.40.1/zellij-x86_64-unknown-linux-musl.tar.gz
 binary:
   - nb: https://raw.github.com/xwmx/nb/master/nb
-  - host-spawn: https://github.com/1player/host-spawn/releases/download/1.5.1/host-spawn-x86_64
+  - host-spawn: https://github.com/1player/host-spawn/releases/download/v1.6.0/host-spawn-x86_64
 
