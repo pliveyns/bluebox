@@ -32,6 +32,7 @@ dnf:
   - dconf
   - fzf
   - virt-viewer
+  - zstd
 rpm:
   - chezmoi: https://github.com/twpayne/chezmoi/releases/download/v2.56.0/chezmoi-2.56.0-x86_64.rpm
   - glow: https://github.com/charmbracelet/glow/releases/download/v2.0.0/glow-2.0.0.x86_64.rpm
