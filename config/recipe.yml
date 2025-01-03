@@ -41,7 +41,6 @@ rpm:
   - cosign: https://github.com/sigstore/cosign/releases/download/v2.4.1/cosign-2.4.1-1.x86_64.rpm
 tar:
   - zellij: https://github.com/zellij-org/zellij/releases/download/v0.41.2/zellij-x86_64-unknown-linux-musl.tar.gz
-  - atuin: https://github.com/atuinsh/atuin/releases/download/v18.4.0/atuin-x86_64-unknown-linux-gnu.tar.gz
 binary:
   - nb: https://raw.github.com/xwmx/nb/master/nb
   - host-spawn: https://github.com/1player/host-spawn/releases/download/v1.6.0/host-spawn-x86_64
